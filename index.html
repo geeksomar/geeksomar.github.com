@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CrayonUp – Home of Creative Tech</title>
+
+    <!--  Bootstrap 5 CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!--  Custom Google Font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  Custom CSS  -->
+    <style>
+      :root {
+        --brand: #ff6b6b;
+        --brand-dark: #ff5252;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .btn-brand {
+        background-color: var(--brand);
+        border-color: var(--brand);
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+      .btn-brand:hover {
+        background-color: var(--brand-dark);
+        border-color: var(--brand-dark);
+        transform: translateY(-2px);
+      }
+      .hero {
+        background: linear-gradient(135deg, #ff6b6b 0%, #ffa8a8 100%);
+        color: #fff;
+      }
+      .feature-icon {
+        width: 70px;
+        height: 70px;
+        background: var(--brand);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 28px;
+        margin: 0 auto 1rem;
+      }
+      .portfolio-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5rem;
+        transition: transform 0.4s ease;
+      }
+      .portfolio-item:hover {
+        transform: scale(1.05);
+      }
+      .portfolio-item img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+      }
+      .footer {
+        background-color: #212529;
+        color: #adb5bd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-uppercase" href="#">CrayonUp</a>
+      </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="hero" class="hero py-5">
+      <div class="container py-5 text-center">
+        <h1 class="display-4 fw-bold mb-3">About CrayonUp.com</h1>
+        <p class="lead mb-4">
+          CrayonUp is Free Printables PDFs Coloring Pages and activity sheets for kids, parents, and teachers. Download instantly, no sign-ups, no ads just print and create.
+        </p>
+        <a href="https://www.crayonup.com/" class="btn btn-lg btn-brand">Explore Free Printables PDFs Coloring Pages</a>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3">What CrayonUp Gives You</h2>
+            <p>
+              Hundreds of free, high-quality coloring pages—ready to print in one click. Choose a design, hit print, and start creating instantly. Fresh sheets drop every week, so the fun never ends.
+            </p>
+            <a href="https://www.crayonup.com/p/coloring-pages.html" class="btn btn-brand">Coloring Pages</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://img.crayonup.com/logo/Crayonup-website-featured-image.jpg"
+              alt="CrayonUp Free Printables PDFs Coloring Pages Featured Image"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES SECTION ================= -->
+    <section id="features" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">What We Do</h2>
+        <div class="row g-4">
+          <div class="col-md-4 text-center">
+            <div class="feature-icon">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h5 class="fw-semibold">Coloring Page Design</h5>
+            <p>
+              We design images for adults and kids to color in. We create the images and make them available for free.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="feature-icon">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <h5 class="fw-semibold">Coloring Page PDF </h5>
+            <p>
+              We convert the images into PDFs. You can download the PDFs and print them. For free.
+            </p>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="feature-icon">
+              <i class="bi bi-rocket-takeoff"></i>
+            </div>
+            <h5 class="fw-semibold">Daily New Coloring Pages </h5>
+            <p>
+              We create new images every day. So you can always find something new to color.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO SECTION ================= -->
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Selected Coloring Page Categories</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="portfolio-item">
+              <img class="object-fit-contain"
+                src="https://img.crayonup.com/blogger/holidays-seasons-coloring-pages-featured-image.webp"
+                alt="Holidays & Seasons Coloring Pages – Free Printable PDFs"
+              />
+              <div class="p-3">
+                <a href="https://www.crayonup.com/p/holidays-seasons-coloring-pages.html" ><h6 class="fw-bold mb-1">Holidays & Seasons Coloring Pages (Free PDF Printables)</h6></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-item">
+              <img class="object-fit-contain"
+                src="https://img.crayonup.com/blogger/cartoon-coloring-pages-featured-image-767x432.webp"
+                alt="Cartoon Coloring Pages (Free PDF Printables)"
+              />
+              <div class="p-3">
+                <a href="https://www.crayonup.com/p/cartoon-coloring-pages.html" ><h6 class="fw-bold mb-1">Cartoon Coloring Pages (Free PDF Printables)</h6></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-item">
+              <img class="object-fit-contain"
+                src="https://img.crayonup.com/blogger/pokemon-coloring-pages-featured-image.webp"
+                alt="Pokemon Coloring Pages (Free PDF Printables)"
+              />
+              <div class="p-3">
+                <a href="https://www.crayonup.com/2025/08/Pokemon-coloring-pages.html" ><h6 class="fw-bold mb-1">Pokemon Coloring Pages (Free PDF Printables)</h6></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 class="fw-bold mb-4">Let’s Create Together</h2>
+            <p class="mb-4">
+              Conntact Us to provide you as much as possible Free coloring Pages on <a href="https://www.crayonup.com/p/contact.html">Contact</a>
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer py-4">
+      <div class="container text-center">
+        <p class="mb-0">
+          &copy; <span id="year"></span> <a href="https://www.crayonup.com/">CrayonUp</a>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!--  Bootstrap 5 JS + Popper  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--  Bootstrap Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!--  Dynamic Year  -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
